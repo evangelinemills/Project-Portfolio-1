@@ -8,6 +8,47 @@
 
 body {
     font-family: Heebo, sans-serif;
-    font-weight: 300;
+    font-weight: 200;
+    color: #333436;
 }
 
+/* header and logo */
+
+
+
+h1, h2 {
+    font-family: Ubuntu, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #222325;
+}
+
+#logo {
+   float: left;
+   font-size: 250%;
+   padding: 4px;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 5px;
+    float: right;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: 1px solid #333436;
+}
