@@ -48,6 +48,7 @@ h1, h2 {
 
 #menu a {
     text-decoration: none;
+    color:#3d251e;
 }
 
 .active {
@@ -60,6 +61,7 @@ h1, h2 {
     height: 500px;
     width: 100%;
     overflow: hidden;
+    
 
     position: relative;
 }
@@ -75,6 +77,8 @@ h1, h2 {
 
 #about-me {
     height: 500px;
+    background-color: rgba(91, 62, 49, 0.5);
+    margin: 80px;
 }
 
 hr {
@@ -120,6 +124,7 @@ hr {
 
 #right-about {
     padding: 20px;
+    margin-right: 60px;
     width: 55%;
     float: right;
     line-height: 30px;
@@ -132,5 +137,82 @@ hr {
     font-family: Ubuntu, sans-serif;
     color: #3d251e;
     line-height: 30px;
+}
+
+/* Services */
+
+#services {
+    height: 900px;
+    background-color: rgba(125, 99, 85, 0.4);
+    margin: 80px;
+}
+
+#services h1 {
+    font-family: Ubuntu, sans-serif;
+    letter-spacing: 5px;
+    font-size: 275%;
+    color: #3d251e;
+    text-align: center;
+
+    padding: 5px;
+    margin: 15px;
+}
+
+#services h3 {
+    text-transform: uppercase;
+    color: #3d251e;
+    font-family: Ubuntu, sans-serif;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
+ #services hr {
+    border-bottom: 1px solid #3d251e;
+    width: 80%;
+    margin: 5px;
+ }
+
+#services p {
+    text-align: justify;
+    line-height: 30px;
 
 }
+
+.services-grid { 
+    display: grid; 
+    grid-template-columns: repeat(2, 5fr); 
+    grid-template-rows: repeat(4, 1fr); 
+    grid-column-gap: 10px;
+    grid-row-gap: 5px; 
+
+    font-family: Heebo, sans-serif;
+    line-height: 30px;
+
+    padding: 20px;
+    }
+
+    #prep-online-img {
+        background-image: url('../images/timothy-meinberg-NFH6LovuJso-unsplash.jpg');
+        height: 200x;
+    }
+
+    /* Contact */
+
+    #contact {
+        height: 500px;
+        background-color: rgba(91, 62, 49, 0.5);
+        margin: 80px;
+    }
+
+    #contact h1 {
+        font-family: Ubuntu, sans-serif;
+        letter-spacing: 5px;
+        font-size: 275%;
+        color: #3d251e;
+        text-align: center;
+
+        padding: 5px;
+        margin: 15px;
+    }
+
+
