@@ -25,7 +25,8 @@ h1, h2 {
 #logo {
    float: left;
    font-size: 250%;
-   padding: 4px;
+   padding-left: 4px;
+   margin-left: 20px;
 }
 
 #menu {
@@ -51,3 +52,20 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #333436;
 }
+
+/* header image */
+
+#head-image-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#head-image {
+    height: 500px;
+    width: 100%px;
+    background: url('../images/breastfeeding-ga5d51c5f4_1280.jpg') no-repeat center center;
+}
+
