@@ -6,6 +6,8 @@
    border: none;
 }
 
+
+
 body {
     font-family: Heebo, sans-serif;
     font-weight: 200;
@@ -13,6 +15,12 @@ body {
 }
 
 /* header and logo */
+
+#header {
+    height: 100px;
+    background-color: rgba(91, 62, 49, 0.1);
+    margin: 80px;
+}
 
 
 h1, h2 {
@@ -27,6 +35,7 @@ h1, h2 {
    font-size: 250%;
    padding-left: 4px;
    margin-left: 20px;
+   line-height: 60px;
 }
 
 #menu {
@@ -34,16 +43,14 @@ h1, h2 {
     letter-spacing: 5px;
     float: right;
     color: #3d251e;
+    line-height: 150px;
 }
 
-#menu, #logo {
-    line-height: 75px;
-}
 
 #menu li {
     float: left;
     list-style-type: none;
-    margin-right: 25px;
+    margin-right: 5px;
 }
 
 #menu a {
@@ -51,9 +58,6 @@ h1, h2 {
     color:#3d251e;
 }
 
-.active {
-    border-bottom: 1px solid #3d251e;
-}
 
 /* header image */
 
