@@ -121,9 +121,26 @@
     <section id="contact">
         <h1>Get In Touch</h1>
         <div>
-            <form action="#" method="post">
-                
+            <form action="#" method="post" id="get-in-touch">
+                <label for="f-name">First Name:</label>
+                <input id="f-name" type="text" name="f-name" required>
+                <label for="l-name">Last Name:</label>
+                <input id="l-name" type="text" name="l-name" required>
+                <label for="email">E-Mail:</label>
+                <input id="email" type="email" name="email" required>
+                <label for="interested-in">Intereted In:</label>
+                <select id="interested-in" name="interested-in">
+                    <option value="online-prep">Online Breastfeeding Preparation Class</option>
+                    <option value="home-consult">1:1 Home Consultation</option>
+                    <option value="online-consult">Online Consultation</option>
+                    <option value="tailored">1:1 Tailored Class</option>
+                </select>
+                <label for="enquiry">Your Enquiry:</label>
+                <textarea name="enquiry" id="enquiry" rows="10" cols="20"></textarea>
+                <input id="submit" type="submit" value="Send!">
+                <input id="reset" type="reset" value="Clear">
             </form>
+           
         </div>
     </section>
 <!--Footer-->    

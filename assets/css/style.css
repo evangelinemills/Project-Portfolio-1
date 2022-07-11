@@ -172,14 +172,14 @@ hr {
 
  #services hr {
     border-bottom: 1px solid #3d251e;
-    width: 100%;
+    width: 90%;
     margin: 5px;
  }
 
 #services p {
     text-align: justify;
     line-height: 30px;
-    padding-top: 2%;
+    padding: 2% 2% 0 0;
 
 }
 
@@ -213,6 +213,10 @@ hr {
 
         padding: 5px;
         margin: 15px;
+    }
+
+    #get-in-touch {
+        
     }
 
 
