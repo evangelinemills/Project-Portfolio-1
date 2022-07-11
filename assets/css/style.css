@@ -63,7 +63,7 @@ h1, h2 {
 
 #head-image-outer {
     height: 500px;
-    width: 100%;
+    margin: 80px;
     overflow: hidden;
     
 
@@ -73,7 +73,7 @@ h1, h2 {
 #head-image {
     height: 500px;
     width: 100%;
-    background: url('../images/breastfeeding-ga5d51c5f4_1280.jpg') no-repeat center center;
+    background: url('../images/breastfeeding.jpg') no-repeat center center;
 }
 
 /* About Me */
@@ -81,13 +81,13 @@ h1, h2 {
 
 #about-me {
     height: 500px;
-    background-color: rgba(91, 62, 49, 0.5);
+    background-color: rgba(91, 62, 49, 0.3);
     margin: 80px;
 }
 
 hr {
     border-bottom: 1px solid #3d251e;
-    width: 60%;
+    width: 100%;
     margin: 5px;
 }
 
@@ -99,10 +99,10 @@ hr {
     text-align: center;
 
     padding: 5px;
-    margin: 15px;
+    margin: 5px;
 }
 
-#left-about {
+#about-me-left {
     padding-top: 20px;
     width: 35%;
     float: left;
@@ -114,8 +114,7 @@ hr {
     padding: 20px;
     border: 1px dotted #3d251e;
     border-radius: 50%;
-    float: left;
-    margin-left: 100px;
+    margin-left: 25px;
 }
 
 #circle-image {
@@ -123,10 +122,10 @@ hr {
    width: 100%;
    border-radius: 50%;
    background-color: pink;
-   background: url('../images/Claire-Ferris.jpeg') no-repeat center center;
+   background: url('../images/claire-ferris.jpeg') no-repeat center center;
 }
 
-#right-about {
+#about-me-right {
     padding: 20px;
     margin-right: 60px;
     width: 55%;
@@ -137,7 +136,7 @@ hr {
     
 }
 
-#right-about h2 {
+#about-me-right h2 {
     font-family: Ubuntu, sans-serif;
     color: #3d251e;
     line-height: 30px;
@@ -146,7 +145,7 @@ hr {
 /* Services */
 
 #services {
-    height: 900px;
+    height: 1500px;
     background-color: rgba(125, 99, 85, 0.4);
     margin: 80px;
 }
@@ -168,17 +167,19 @@ hr {
     font-family: Ubuntu, sans-serif;
     font-weight: bold;
     letter-spacing: .5px;
+    padding-top: 10%;
 }
 
  #services hr {
     border-bottom: 1px solid #3d251e;
-    width: 80%;
+    width: 100%;
     margin: 5px;
  }
 
 #services p {
     text-align: justify;
     line-height: 30px;
+    padding-top: 2%;
 
 }
 
@@ -186,18 +187,13 @@ hr {
     display: grid; 
     grid-template-columns: repeat(2, 5fr); 
     grid-template-rows: repeat(4, 1fr); 
-    grid-column-gap: 10px;
+    grid-column-gap: 5px;
     grid-row-gap: 5px; 
 
     font-family: Heebo, sans-serif;
     line-height: 30px;
 
-    padding: 20px;
-    }
-
-    #prep-online-img {
-        background-image: url('../images/timothy-meinberg-NFH6LovuJso-unsplash.jpg');
-        height: 200x;
+    padding: 5px;
     }
 
     /* Contact */
