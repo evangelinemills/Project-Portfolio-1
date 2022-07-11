@@ -9,7 +9,7 @@
 body {
     font-family: Heebo, sans-serif;
     font-weight: 200;
-    color: #333436;
+    color: #5b3e31;
 }
 
 /* header and logo */
@@ -19,7 +19,7 @@ h1, h2 {
     font-family: Ubuntu, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #222325;
+    color: #3d251e;
 }
 
 #logo {
@@ -33,6 +33,7 @@ h1, h2 {
     font-size: 110%;
     letter-spacing: 5px;
     float: right;
+    color: #3d251e;
 }
 
 #menu, #logo {
@@ -50,7 +51,7 @@ h1, h2 {
 }
 
 .active {
-    border-bottom: 1px solid #333436;
+    border-bottom: 1px solid #3d251e;
 }
 
 /* header image */
@@ -77,7 +78,7 @@ h1, h2 {
 }
 
 hr {
-    border-bottom: 1px solid #333436;
+    border-bottom: 1px solid #3d251e;
     width: 60%;
     margin: 5px;
 }
@@ -85,8 +86,8 @@ hr {
 #about-me h1 {
     font-family: Ubuntu, sans-serif;
     letter-spacing: 5px;
-    font-size: 200%;
-    color: #222325;
+    font-size: 275%;
+    color: #3d251e;
     text-align: center;
 
     padding: 5px;
@@ -95,36 +96,41 @@ hr {
 
 #left-about {
     padding-top: 20px;
-    width: 40%;
+    width: 35%;
     float: left;
 }
 
 #circle-container {
-    height: 300px;
-    width: 300px;
-    padding: 30px;
-    border: 1px dotted #333436;
+    height: 275px;
+    width: 275px;
+    padding: 20px;
+    border: 1px dotted #3d251e;
     border-radius: 50%;
+    float: left;
+    margin-left: 100px;
 }
 
 #circle-image {
-   background: url('../images/claire-f-image.jpeg') no-repeat center center;
    height: 100%;
    width: 100%;
    border-radius: 50%;
+   background-color: pink;
+   background: url('../images/Claire-Ferris.jpeg') no-repeat center center;
 }
 
 #right-about {
-    padding-top: 20px;
-    width: 60%;
+    padding: 20px;
+    width: 55%;
     float: right;
     line-height: 30px;
+    clear: right;
+    text-align: justify;
     
 }
 
 #right-about h2 {
     font-family: Ubuntu, sans-serif;
-    color: #222325;
+    color: #3d251e;
     line-height: 30px;
 
 }
