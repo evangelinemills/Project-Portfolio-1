@@ -65,7 +65,66 @@ h1, h2 {
 
 #head-image {
     height: 500px;
-    width: 100%px;
+    width: 100%;
     background: url('../images/breastfeeding-ga5d51c5f4_1280.jpg') no-repeat center center;
 }
 
+/* About Me */
+
+
+#about-me {
+    height: 500px;
+}
+
+hr {
+    border-bottom: 1px solid #333436;
+    width: 60%;
+    margin: 5px;
+}
+
+#about-me h1 {
+    font-family: Ubuntu, sans-serif;
+    letter-spacing: 5px;
+    font-size: 200%;
+    color: #222325;
+    text-align: center;
+
+    padding: 5px;
+    margin: 15px;
+}
+
+#left-about {
+    padding-top: 20px;
+    width: 40%;
+    float: left;
+}
+
+#circle-container {
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    border: 1px dotted #333436;
+    border-radius: 50%;
+}
+
+#circle-image {
+   background: url('../images/claire-f-image.jpeg') no-repeat center center;
+   height: 100%;
+   width: 100%;
+   border-radius: 50%;
+}
+
+#right-about {
+    padding-top: 20px;
+    width: 60%;
+    float: right;
+    line-height: 30px;
+    
+}
+
+#right-about h2 {
+    font-family: Ubuntu, sans-serif;
+    color: #222325;
+    line-height: 30px;
+
+}
