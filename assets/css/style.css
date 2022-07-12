@@ -79,11 +79,22 @@ h1, h2 {
 /* About Me */
 
 
-#about-me {
-    height: 500px;
+.about-me-grid {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: 1fr; 
+    grid-column-gap: 5px;
+    grid-row-gap: 5px; 
+
     background-color: rgba(192, 161, 114, 0.5);
+
+    font-family: Heebo, sans-serif;
+    line-height: 30px;
+    align-content: center;
+
+    padding: 15px;
     margin: 80px;
-}
+    } 
 
 hr {
     border-bottom: 1px solid #2C2416;
@@ -98,14 +109,13 @@ hr {
     color: #2C2416;
     text-align: center;
 
-    padding: 5px;
-    margin: 5px;
+    padding: 2px;
+    margin: 2px;
 }
 
 #about-me-left {
-    padding-top: 20px;
-    width: 35%;
-    float: left;
+    grid-area: 1 / 1 / 2 / 2; 
+    padding: 20px;
 }
 
 #circle-container {
@@ -126,29 +136,39 @@ hr {
 }
 
 #about-me-right {
+    grid-area: 1 / 2 / 2 / 3;
     padding: 20px;
-    margin-right: 60px;
-    width: 55%;
-    float: right;
+    margin-right: 10px;
     line-height: 30px;
     clear: right;
     text-align: justify;
     
-}
+} 
 
 #about-me-right h2 {
     font-family: Ubuntu, sans-serif;
     color: #2C2416;
     line-height: 30px;
-}
+} 
 
 /* Services */
 
-#services {
-    height: 1500px;
+.services-grid { 
+    display: grid; 
+    grid-template-columns: repeat(2, 5fr); 
+    grid-template-rows: repeat(4, 1fr); 
+    grid-column-gap: 5px;
+    grid-row-gap: 5px; 
+
     background-color: rgba(192, 161, 114, 0.5);
-    margin: 100px;
-}
+
+    font-family: Heebo, sans-serif;
+    line-height: 30px;
+    align-content: center;
+
+    padding: 15px;
+    margin: 80px;
+    }
 
 #services h1 {
     font-family: Ubuntu, sans-serif;
@@ -170,7 +190,7 @@ hr {
     padding-top: 10%;
 }
 
- #services hr {
+#services hr {
     border-bottom: 1px solid #2C2416;
     width: 90%;
     margin: 5px;
@@ -180,25 +200,15 @@ hr {
     text-align: justify;
     line-height: 30px;
     padding: 20px 20px 0 0;
-
 }
 
-.services-grid { 
-    display: grid; 
-    grid-template-columns: repeat(2, 5fr); 
-    grid-template-rows: repeat(4, 1fr); 
-    grid-column-gap: 5px;
-    grid-row-gap: 5px; 
+.service-img {
+    padding-left: 60px;
+}
 
-    font-family: Heebo, sans-serif;
-    line-height: 30px;
-
-    padding: 15px;
-    }
-
-    .service-img {
-        padding-left: 60px;
-    }
+#online-prep {
+    grid-area: 1 / 1 / 2 / 2;
+}
 
     /* Contact */
 
@@ -225,7 +235,9 @@ hr {
 
     /* Large - medium screens 1200px wide and dowb */
 
-  
-
-    
-
+  /*@media screen and (max-width: 1200px) {
+    #about-me {
+        height: 500px;
+        margin: 20px;
+  }
+  }*/
