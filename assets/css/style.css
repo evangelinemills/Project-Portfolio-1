@@ -119,9 +119,9 @@ hr {
 }
 
 #circle-container {
-    height: 275px;
-    width: 275px;
-    padding: 20px;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
     border: 1px dotted #2C2416;
     border-radius: 50%;
     margin-left: 25px;
@@ -158,7 +158,7 @@ hr {
     grid-template-columns: repeat(2, 5fr); 
     grid-template-rows: repeat(4, 1fr); 
     grid-column-gap: 5px;
-    grid-row-gap: 5px; 
+    grid-row-gap: 5px;
 
     background-color: rgba(192, 161, 114, 0.5);
 
@@ -196,18 +196,42 @@ hr {
     margin: 5px;
  }
 
-#services p {
+/*#services p {
     text-align: justify;
     line-height: 30px;
     padding: 20px 20px 0 0;
-}
-
-.service-img {
-    padding-left: 60px;
-}
+}*/
 
 #online-prep {
     grid-area: 1 / 1 / 2 / 2;
+}
+
+#online-prep-img {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+#home-consult-img {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+#home-consult {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+#online-consult {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+#online-consult-img {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+#tailored-class-img {
+    grid-area: 4 / 1 / 5 / 2;
+}
+
+#tailored-class {
+    grid-area: 4 / 2 / 5 / 3; 
 }
 
     /* Contact */
@@ -230,6 +254,13 @@ hr {
     }
 
     /* Footer */
+#footer {
+    height: 100px;
+    background-color: rgba(192, 161, 114, 0.5);
+    margin: 80px;
+}
+
+
 
     /* Media Queries*/
 
