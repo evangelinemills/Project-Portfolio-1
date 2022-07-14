@@ -111,6 +111,11 @@ hr {
 
     padding: 2px;
     margin: 2px;
+
+    font-family: Ubuntu, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #2C2416;
 }
 
 #about-me-left {
@@ -149,6 +154,11 @@ hr {
     font-family: Ubuntu, sans-serif;
     color: #2C2416;
     line-height: 30px;
+
+    font-family: Ubuntu, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #2C2416;
 } 
 
 /* Services */
@@ -167,7 +177,6 @@ hr {
     align-content: center;
 
     padding: 15px;
-    margin: 80px;
     }
 
 #services h1 {
@@ -196,18 +205,16 @@ hr {
     margin: 5px;
  }
 
-/*#services p {
-    text-align: justify;
-    line-height: 30px;
-    padding: 20px 20px 0 0;
-}*/
-
 #online-prep {
     grid-area: 1 / 1 / 2 / 2;
 }
 
 #online-prep-img {
     grid-area: 1 / 2 / 2 / 3;
+    background: url('../images/timothy-meinberg.jpg/') no-repeat center center;
+    width:300px;
+    height: 100%;
+    background-size: cover;
 }
 
 #home-consult-img {
@@ -233,6 +240,7 @@ hr {
 #tailored-class {
     grid-area: 4 / 2 / 5 / 3; 
 }
+
 
     /* Contact */
 
